@@ -1,0 +1,47 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="sMNraGaQl0XXzXT_Bk1q">
+    <mxGraphModel dx="1202" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="actor1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#08427B;strokeColor=#052E56;fontColor=#ffffff;fontSize=13;fontStyle=1;arcSize=20;" value="Estudiante&#xa;[Persona]" vertex="1">
+          <mxGeometry height="90" width="180" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#08427B;strokeColor=#052E56;fontColor=#ffffff;fontSize=13;fontStyle=1;arcSize=20;" value="Capitán de Equipo&#xa;[Persona]" vertex="1">
+          <mxGeometry height="90" width="180" x="280" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#08427B;strokeColor=#052E56;fontColor=#ffffff;fontSize=13;fontStyle=1;arcSize=20;" value="Organizador del Torneo&#xa;[Persona]" vertex="1">
+          <mxGeometry height="90" width="200" x="520" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="system" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1168BD;strokeColor=#0B4884;fontColor=#ffffff;fontSize=13;fontStyle=1;arcSize=10;" value="TechCup&#xa;[Sistema de Software]&#xa;&#xa;Plataforma para gestionar el torneo de fútbol interfacultades" vertex="1">
+          <mxGeometry height="130" width="240" x="300" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ext1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#999999;strokeColor=#6B6B6B;fontColor=#ffffff;fontSize=13;fontStyle=1;arcSize=10;" value="PSE&#xa;[Sistema Externo]&#xa;&#xa;Pasarela de pagos en línea" vertex="1">
+          <mxGeometry height="100" width="200" x="100" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="ext2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#999999;strokeColor=#6B6B6B;fontColor=#ffffff;fontSize=13;fontStyle=1;arcSize=10;" value="Decanatura&#xa;[Sistema Externo]&#xa;&#xa;Recibe reportes de pagos de inscripción" vertex="1">
+          <mxGeometry height="100" width="220" x="540" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="actor1" style="html=1;fontSize=11;endArrow=block;elbow=vertical;rounded=0;" target="system" value="Se autentica y consulta&#xa;información de torneos">
+          <mxGeometry relative="1" x="-0.4051" y="-2" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="actor2" style="html=1;fontSize=11;endArrow=block;elbow=vertical;rounded=0;" target="system" value="Crea equipos, paga inscripción&#xa;y registra equipo al torneo">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="actor3" style="html=1;fontSize=11;endArrow=block;elbow=vertical;rounded=0;" target="system" value="Crea y gestiona torneos,&#xa;aprueba pagos y genera reportes">
+          <mxGeometry relative="1" x="-0.5574" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="system" style="html=1;fontSize=11;endArrow=block;elbow=vertical;rounded=0;" target="ext1" value="Procesa el pago&#xa;de inscripción">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="system" style="html=1;fontSize=11;endArrow=block;elbow=vertical;rounded=0;" target="ext2" value="Envía reporte de pagos&#xa;de inscripción [JSON]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
