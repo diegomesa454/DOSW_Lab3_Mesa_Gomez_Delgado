@@ -35,7 +35,7 @@ mvn archetype:generate -DgroupId=edu.eci.dosw.lab -DartifactId=DOSW-Laboratorio3
    8. Haz clic en "Submit review" para confirmar.
 
 7. **Incluir la bibliografía, usando formato APA**
-   # Bibliografía
+   *Bibliografía*
 
    Apache Maven Project. (s.f.). *Introduction to archetypes*. Apache Maven. https://maven.apache.org/guides/introduction/introduction-to-archetypes.html
 
