@@ -15,6 +15,7 @@ Actualmente, la Escuela Colombiana de Ingeniería Julio Garavito no cuenta con u
 Diagrama fuente (editable): [c4-techcup.drawio](../uml/c4-techcup.drawio)
 
 ### 3.2 Actores
+
 | Actor / Rol              | Descripción                                                                 |
 |---------------------------|:----------------------------------------------------------------------------:|
 | Estudiante                | Usuario del sistema que se autentica y consulta información de los torneos |
@@ -22,6 +23,7 @@ Diagrama fuente (editable): [c4-techcup.drawio](../uml/c4-techcup.drawio)
 | Organizador del Torneo    | Crea y gestiona torneos, revisa y aprueba pagos, y genera reportes |
 
 ### 3.3 Sistemas externos
+
 | Sistema      | Descripción                                                                 |
 |--------------|:----------------------------------------------------------------------------:|
 | PSE          | Pasarela de pagos en línea utilizada para procesar el pago de inscripción de los equipos |
