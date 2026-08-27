@@ -17,11 +17,10 @@
    Un Pull Request (PR) es una solicitud para fusionar los cambios de una rama dentro de otra rama del mismo repositorio (o de un fork). Permite revisar el código, discutir cambios y aprobar la integración antes de que se incorpore a la rama destino.
 
 5. **¿Cómo crear un pull request?**
-
    Comando usado para crear el proyecto
-```
-mvn archetype:generate -DgroupId=edu.eci.dosw.lab -DartifactId=DOSW-Laboratorio3 -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
-```
+   ```
+   mvn archetype:generate -DgroupId=edu.eci.dosw.lab -DartifactId=DOSW-Laboratorio3 -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   ```
 
 6. **¿Cómo se aprueba un pull request en GitHub?**
    Para aprobar un pull request en GitHub:
@@ -35,7 +34,7 @@ mvn archetype:generate -DgroupId=edu.eci.dosw.lab -DartifactId=DOSW-Laboratorio3
    8. Haz clic en "Submit review" para confirmar.
 
 7. **Incluir la bibliografía, usando formato APA**
-   *Bibliografía*
+   Bibliografía
 
    Apache Maven Project. (s.f.). *Introduction to archetypes*. Apache Maven. https://maven.apache.org/guides/introduction/introduction-to-archetypes.html
 
