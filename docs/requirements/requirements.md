@@ -65,6 +65,13 @@ El requerimiento "Crear Torneo" involucra 3 pantallas:
 
 ![Flujo de navegación](../images/flujo-navegacion-crear-torneo.png) — [flujo-navegacion-crear-torneo.drawio](../images/flujo-navegacion-crear-torneo.drawio)
 
+### MOCKUPS
+![Listado de torneos](../images/listado-de-torneos.png)
+![Formulario Crear Torneo](../images/creacion-de-torneo.png)
+![Confirmación](../images/confirmacion-creacion.png)
+
+[Firma mockup](https://www.figma.com/design/7XIHe7qCfyQ4XC9BkkwDSB/TechCup?node-id=0-1&t=xym7cuLTCsrOhzha-1)
+
 ### 2.3 Requerimiento Funcional 3
 
 | Campo | Descripción |

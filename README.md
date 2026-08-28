@@ -22,13 +22,10 @@
 
 5. **¿Cómo crear un pull request?**
 
-   Para crear un pull request en GitHub:
-   1. Sube (push) tu rama con los cambios al repositorio remoto.
-   2. Ve a la pestaña "Pull requests" del repositorio.
-   3. Haz clic en "New pull request".
-   4. Selecciona la rama base (ej. develop) y la rama de comparación (tu rama feature).
-   5. Escribe un título y una descripción explicando los cambios.
-   6. Haz clic en "Create pull request".
+   Comando usado para crear el proyecto
+   ```
+   mvn archetype:generate -DgroupId=edu.eci.dosw.lab -DartifactId=DOSW-Laboratorio3 -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   ```
 
 6. **¿Cómo se aprueba un pull request en GitHub?**
 
