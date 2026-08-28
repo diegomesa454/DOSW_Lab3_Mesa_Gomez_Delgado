@@ -70,7 +70,7 @@ El requerimiento "Crear Torneo" involucra 3 pantallas:
 ![Formulario Crear Torneo](../images/creacion-de-torneo.png)
 ![Confirmación](../images/confirmacion-creacion.png)
 
-[Firma mockup](https://www.figma.com/design/7XIHe7qCfyQ4XC9BkkwDSB/TechCup?node-id=0-1&t=xym7cuLTCsrOhzha-1)
+[Figma mockup](https://www.figma.com/design/7XIHe7qCfyQ4XC9BkkwDSB/TechCup?node-id=0-1&t=xym7cuLTCsrOhzha-1)
 
 ### 2.3 Requerimiento Funcional 3
 
