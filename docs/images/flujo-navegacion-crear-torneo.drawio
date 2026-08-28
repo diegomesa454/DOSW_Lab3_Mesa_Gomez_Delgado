@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="LtzLoqtnNnCs3ZGF-wIm">
+    <mxGraphModel dx="1022" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="listado" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;" value="Listado de Torneos&#xa;(vista inicial)" vertex="1">
+          <mxGeometry height="70" width="200" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="formulario" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;fontStyle=1;" value="Formulario Crear Torneo&#xa;(fecha, valor inscripción)" vertex="1">
+          <mxGeometry height="70" width="220" x="340" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="confirmacion" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;" value="Confirmación&#xa;(mensaje de éxito)" vertex="1">
+          <mxGeometry height="70" width="220" x="340" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="listado" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=11;" target="formulario" value="Crear Torneo">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="formulario" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=11;" target="confirmacion" value="Datos válidos">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="formulario" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=11;exitX=0;exitY=0.75;entryX=1;entryY=0.75;" target="listado" value="Cancelar">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="confirmacion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=11;exitX=0;exitY=0.5;entryX=0;entryY=1;" target="listado" value="Volver">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
